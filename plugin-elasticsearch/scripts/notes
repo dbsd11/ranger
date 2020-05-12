@@ -1,0 +1,19 @@
+1. 打包的插件中少些包，需手动拷贝至ranger-elasticsearch-plugin-impl目录
+    woodstox-core
+    woodstox-core-asl
+    stax2-api
+    commons-configuration2
+    commons-cli
+    commons-io
+    commons-logging
+    credentialbuilder
+    guava
+    hadoop-auth
+    hadoop-common
+    htrace-core4
+
+2. 执行modifyEsConfig.sh修改es配置
+
+3. 检查plugin-security.policy
+
+
